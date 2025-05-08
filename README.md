@@ -1,4 +1,16 @@
-# A Self-Training-Based Annotation Framework with Augmentation for Cyber Threat Intelligence Posts
-This repository contains the manually cross-annotated CTI-Annotated Sample Dataset (_CTI-sample-dataset-ids-only.csv_) and self-training annotated CTI-Annotated Full Dataset (_CTI-full-dataset-ids-only.csv_) curated for ' Self-Training-Based Annotation Framework with Augmentation
-for Cyber Threat Intelligence Posts' paper.  
-Datasets contain the post IDs, and the label of posts. Labels are either 'CTI-Positive' or 'CTI-Negative' based on relation to cyber threat intelligence (CTI).
+# A Self-Training-Based Annotation Framework with Tailored Augmentation for Cyber Threat Intelligence Posts
+
+This repository contains two datasets curated for the paper **"A Self-Training-Based Annotation Framework with Tailored Augmentation for Cyber Threat Intelligence Posts."**
+
+## Included Files
+- `CTI-sample-dataset-ids-only.csv`: Manually cross-annotated CTI-Annotated Sample Dataset  
+- `CTI-full-dataset-ids-only.csv`: Automatically annotated CTI-Annotated Full Dataset generated via self-training
+- `unlabeled_data_ids.csv`: Unlabeled data used to generate the CTI-Annotated Full Dataset (shared for reproducibility purposes)
+
+## Description
+Each dataset contains post IDs from the social media platform **X** and their corresponding labels. Labels are:
+- `CTI-Positive`: Post is related to cyber threat intelligence (CTI)
+- `CTI-Negative`: Post is not related to CTI
+
+Please note that only post IDs and labels are provided, in compliance with platform policies.
+
