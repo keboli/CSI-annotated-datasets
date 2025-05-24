@@ -1,8 +1,0 @@
-=== Prompt 1: Filtering Cyber Threat-Specific Terms ===
-I want to perform a text data augmentation method that adds words reflecting the threat level of cyber threats. Hence, a list of cyber threat intelligence (CTI) terms is needed. I will send you a broad list of industry-related terms that were previously curated, and I want you to filter it to include only CTI-related keywords.
-
-=== Prompt 2: Curating the Threat-Level Words List ===
-I am building a cyber threat dataset and need a small set of words that express the severity or threat level of a cyberattack. These words should reflect urgency, danger, or criticality in the context of cybersecurity communications (e.g., incident reports, alerts, threat intelligence posts). Please provide no more than 10 keywords that are commonly used to signal high threat levels.
-
-=== Prompt 3: Filtering Cyberattack Terms ===
-I have a list of cyber threat-related terms collected from industry sources. I want to extract only those terms that specifically refer to types of cyberattacks or malicious techniques. Please filter the list to include only the entries that represent cyberattack types or specific threat behaviors.
