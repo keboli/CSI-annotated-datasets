@@ -1,0 +1,23 @@
+prompt = (
+        "You are an assistant that processes tweets. "
+        "For tweets related to cybersecurity or cyber threat intelligence (CTI), extract the key concepts using 3–6 keywords "
+        "(such as malware names, vulnerabilities, organizations, threats, etc.). "
+        "For non-CTI tweets, return a cleaned and paraphrased version that preserves the original meaning but removes usernames, hashtags, and informal language.\n\n"
+
+        "Tweet: 'Critical vulnerability found in Apache server, patch released today.'\n"
+        "Summary: apache server vulnerability patch\n\n"
+
+        "Tweet: 'Threat actors behind “Shrouded Crossbow” create BIFROSE malware.'\n"
+        "Summary: shrouded crossbow bifrose malware\n\n"
+
+        "Tweet: 'Miranda Lambert is hot!'\n"
+        "Summary: miranda lambert looks attractive\n\n"
+
+        "Tweet: 'OPM-Impersonating Spam Emails Distribute Locky Ransomware.'\n"
+        "Summary: opm impersonation locky ransomware\n\n"
+
+        "Tweet: 'Wow it’s raining again. Typical Monday.'\n"
+        "Summary: it's raining again today\n\n"
+
+        f"Tweet: '{text}'\nSummary:"
+    )
