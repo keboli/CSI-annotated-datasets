@@ -1,0 +1,1 @@
+I have a list of cyber threat-related terms collected from industry sources. I want to extract only those terms that specifically refer to types of cyberattacks or malicious techniques. Please filter the list to include only the entries that represent cyberattack types or specific threat behaviors.
