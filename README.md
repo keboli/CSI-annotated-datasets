@@ -1,6 +1,6 @@
 # CTI-ANN: A Self-Training-Based Annotation Framework with Tailored Augmentation for Cyber Threat Intelligence Posts
 
-This repository contains two datasets curated for the paper **"A Self-Training-Based Annotation Framework with Tailored Augmentation for Cyber Threat Intelligence Posts."**
+This repository contains two datasets curated for the paper **"CTI-ANN: A Self-Training-Based Annotation Framework with Tailored Augmentation for Cyber Threat Intelligence Posts."**
 
 ## Included Files
 - `CTI-sample-dataset-ids-only.csv`: Manually cross-annotated CTI-Annotated Sample Dataset  
